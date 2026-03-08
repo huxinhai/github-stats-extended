@@ -163,12 +163,12 @@ GitHub Stats Extended provides several environment variables that can be used to
     </tr>
     <tr>
       <td><code>UPDATE_AFTER_HOURS</code></td>
-      <td>Sets the duration in hours after which the server <a href="fork.md#improved-performance-and-latency">proactively regenerates</a> a previously requested card.</td>
+      <td>Sets the duration in hours after which the server <a href="fork.md#improved-performance-and-latency">proactively regenerates</a> a previously requested card. Defaults to 11 hours.</td>
       <td>Any int or float</td>
     </tr>
     <tr>
       <td><code>DELETE_AFTER_HOURS</code></td>
-      <td>Sets the duration in hours after which the server stops <a href="fork.md#improved-performance-and-latency">proactively regenerating</a> a previously requested card if it hasn't been requested again in the meantime.</td>
+      <td>Sets the duration in hours after which the server stops <a href="fork.md#improved-performance-and-latency">proactively regenerating</a> a previously requested card if it hasn't been requested again in the meantime. Defaults to 8 days, i.e. 192 hours.</td>
       <td>Any int or float</td>
     </tr>
     <tr>
