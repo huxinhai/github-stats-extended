@@ -1,5 +1,6 @@
 // @ts-expect-error type info should be added later
 import { router } from "@stats-organization/github-readme-stats-backend";
+import { loadConfigFromEnv } from "@stats-organization/github-readme-stats-core";
 import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 import type { JSX } from "react";
@@ -48,6 +49,8 @@ export function SvgInline(props: SvgInlineProps): JSX.Element {
 
     const loadSvg = async () => {
       window.process.env.PAT_1 = userToken as string;
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+      loadConfigFromEnv(window.process.env);
 
       setLoaded(false);
 
