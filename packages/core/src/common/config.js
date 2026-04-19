@@ -28,9 +28,12 @@ const parsePATsFromEnv = (env) => {
  * @returns {Record<string, string | undefined>} `process.env` if available, otherwise `{}`.
  */
 const getDefaultEnv = () => {
+  console.log((typeof process !== "undefined") + " | " + process?.env);
   if (typeof process !== "undefined" && process?.env) {
+    console.log("if branch");
     return process.env;
   }
+  console.log("else branch");
   return {};
 };
 
