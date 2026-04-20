@@ -14,8 +14,6 @@ import {
   useUserToken,
 } from "../../redux/selectors/userSelectors.js";
 
-import "../../constants.js"; // set process.env before the core package uses it
-
 interface SvgInlineProps {
   url: string;
   stage: number;
@@ -48,9 +46,12 @@ export function SvgInline(props: SvgInlineProps): JSX.Element {
     let isCurrent = true;
 
     const loadSvg = async () => {
-      window.process.env.PAT_1 = userToken as string;
+      const config: Record<string, string | undefined> = {
+        FETCH_MULTI_PAGE_STARS: "10",
+        PAT_1: userToken as string, // even if it's null, core's retryer.js sees there is 1 PAT and sets `RETRIES` accordingly
+      };
       // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-      loadConfigFromEnv(window.process.env);
+      loadConfigFromEnv(config);
 
       setLoaded(false);
 

@@ -17,10 +17,3 @@ export const DEMO_USER = "anuraghazra" as string;
 export const DEMO_REPO = "anuraghazra/github-readme-stats" as string;
 export const DEMO_GIST = "bbfce31e0217a3689c8d961a356cb10d" as string;
 export const DEMO_WAKATIME_USER = "alan" as string;
-
-window.process = {
-  env: {
-    FETCH_MULTI_PAGE_STARS: "10",
-    PAT_1: "placeholderPAT", // so the backend's retryer.js sees there is 1 PAT and sets `RETRIES` accordingly
-  },
-} as (typeof window)["process"];

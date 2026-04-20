@@ -28,12 +28,9 @@ const parsePATsFromEnv = (env) => {
  * @returns {Record<string, string | undefined>} `process.env` if available, otherwise `{}`.
  */
 const getDefaultEnv = () => {
-  console.log((typeof process !== "undefined") + " | " + process?.env);
   if (typeof process !== "undefined" && process?.env) {
-    console.log("if branch, returning " + JSON.stringify(process.env));
     return process.env;
   }
-  console.log("else branch");
   return {};
 };
 
@@ -63,7 +60,6 @@ let currentConfig;
  * @param {Record<string, string | undefined>} env Environment variables used to build the runtime config.
  */
 export const loadConfigFromEnv = (env = getDefaultEnv()) => {
-  console.log("env: " + JSON.stringify(env));
   const whitelist = parseCsv(env.WHITELIST);
   const gistWhitelist = parseCsv(env.GIST_WHITELIST);
   const excludeRepositories = parseCsv(env.EXCLUDE_REPO) || [];
