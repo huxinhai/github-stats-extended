@@ -17,3 +17,8 @@ export const DEMO_USER = "anuraghazra" as string;
 export const DEMO_REPO = "anuraghazra/github-readme-stats" as string;
 export const DEMO_GIST = "bbfce31e0217a3689c8d961a356cb10d" as string;
 export const DEMO_WAKATIME_USER = "alan" as string;
+
+// imported backend code expects process.env to be defined
+window.process = {
+  env: {},
+} as (typeof window)["process"];
