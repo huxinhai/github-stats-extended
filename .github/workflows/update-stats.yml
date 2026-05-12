@@ -2,7 +2,7 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "42 19 * * *"
   workflow_dispatch:
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
           card: wakatime
           options: username=xinhai&layout=compact&langs_count=10
           path: profile/wakatime.svg
-          token: ${{ secrets.PAT_TOKEN }}    
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Commit cards
         run: |
