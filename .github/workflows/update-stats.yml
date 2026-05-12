@@ -34,7 +34,6 @@ jobs:
           card: wakatime
           options: username=xinhai&layout=compact&langs_count=10
           path: profile/wakatime.svg
-
           token: ${{ secrets.PAT_TOKEN }}    
 
       - name: Commit cards
