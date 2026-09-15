@@ -129,7 +129,7 @@
             data-testid="lang-progress"
             x="0"
             y="0"
-            width="148.8"
+            width="148.4745"
             height="8"
             fill="#3178c6"
           />
@@ -137,9 +137,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="148.8"
+            x="148.4745"
             y="0"
-            width="76.6785"
+            width="76.725"
             height="8"
             fill="#b07219"
           />
@@ -147,9 +147,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="225.4785"
+            x="225.1995"
             y="0"
-            width="60.915"
+            width="60.635999999999996"
             height="8"
             fill="#083fa1"
           />
@@ -157,9 +157,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="286.3935"
+            x="285.8355"
             y="0"
-            width="56.311499999999995"
+            width="56.07900000000001"
             height="8"
             fill="#f34b7d"
           />
@@ -167,9 +167,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="342.70500000000004"
+            x="341.91450000000003"
             y="0"
-            width="41.24549999999999"
+            width="41.0595"
             height="8"
             fill="#3572A5"
           />
@@ -177,9 +177,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="383.95050000000003"
+            x="382.97400000000005"
             y="0"
-            width="31.434"
+            width="32.5035"
             height="8"
             fill="#858585"
           />
@@ -187,9 +187,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="415.38450000000006"
+            x="415.4775000000001"
             y="0"
-            width="13.857000000000001"
+            width="14.089499999999997"
             height="8"
             fill="#292929"
           />
@@ -197,9 +197,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="429.2415000000001"
+            x="429.56700000000006"
             y="0"
-            width="12.2295"
+            width="12.183"
             height="8"
             fill="#DA3434"
           />
@@ -207,9 +207,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="441.47100000000006"
+            x="441.75000000000006"
             y="0"
-            width="11.439"
+            width="11.3925"
             height="8"
             fill="#cb171e"
           />
@@ -217,9 +217,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="452.9100000000001"
+            x="453.14250000000004"
             y="0"
-            width="11.253"
+            width="11.2065"
             height="8"
             fill="#858585"
           />
@@ -228,14 +228,14 @@
     <g transform="translate(25, 25)">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript - 290 hrs 22 mins
+        TypeScript - 291 hrs 6 mins
       </text>
     </g>
   
     <g transform="translate(230, 25)">
       <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Java - 149 hrs 32 mins
+        Java - 150 hrs 22 mins
       </text>
     </g>
   
@@ -263,14 +263,14 @@
     <g transform="translate(230, 75)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Other - 61 hrs 20 mins
+        Other - 63 hrs 43 mins
       </text>
     </g>
   
     <g transform="translate(25, 100)">
       <circle cx="5" cy="6" r="5" fill="#292929" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JSON - 27 hrs
+        JSON - 27 hrs 33 mins
       </text>
     </g>
   
