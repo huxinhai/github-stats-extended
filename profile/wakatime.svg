@@ -129,7 +129,7 @@
             data-testid="lang-progress"
             x="0"
             y="0"
-            width="153.68249999999998"
+            width="153.171"
             height="8"
             fill="#3178c6"
           />
@@ -137,9 +137,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="153.68249999999998"
+            x="153.171"
             y="0"
-            width="71.5635"
+            width="71.79599999999999"
             height="8"
             fill="#b07219"
           />
@@ -147,9 +147,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="225.24599999999998"
+            x="224.96699999999998"
             y="0"
-            width="58.869"
+            width="59.2875"
             height="8"
             fill="#083fa1"
           />
@@ -157,9 +157,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="284.115"
+            x="284.2545"
             y="0"
-            width="49.429500000000004"
+            width="49.476000000000006"
             height="8"
             fill="#858585"
           />
@@ -167,9 +167,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="333.5445"
+            x="333.7305"
             y="0"
-            width="43.384499999999996"
+            width="43.291500000000006"
             height="8"
             fill="#f34b7d"
           />
@@ -177,9 +177,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="376.92900000000003"
+            x="377.022"
             y="0"
-            width="39.6645"
+            width="39.75750000000001"
             height="8"
             fill="#3572A5"
           />
@@ -187,9 +187,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="416.5935"
+            x="416.7795"
             y="0"
-            width="14.694"
+            width="14.6475"
             height="8"
             fill="#292929"
           />
@@ -197,9 +197,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="431.2875"
+            x="431.42699999999996"
             y="0"
-            width="12.9735"
+            width="12.926999999999998"
             height="8"
             fill="#f1e05a"
           />
@@ -207,7 +207,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="444.261"
+            x="444.354"
             y="0"
             width="11.0205"
             height="8"
@@ -217,9 +217,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="455.28150000000005"
+            x="455.3745"
             y="0"
-            width="9.858"
+            width="9.8115"
             height="8"
             fill="#858585"
           />
@@ -235,21 +235,21 @@
     <g transform="translate(230, 25)">
       <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Java - 190 hrs 13 mins
+        Java - 191 hrs 26 mins
       </text>
     </g>
   
     <g transform="translate(25, 50)">
       <circle cx="5" cy="6" r="5" fill="#083fa1" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Markdown - 156 hrs 28 mins
+        Markdown - 158 hrs 4 mins
       </text>
     </g>
   
     <g transform="translate(230, 50)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Other - 131 hrs 17 mins
+        Other - 131 hrs 57 mins
       </text>
     </g>
   
@@ -263,7 +263,7 @@
     <g transform="translate(230, 75)">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python - 105 hrs 26 mins
+        Python - 105 hrs 59 mins
       </text>
     </g>
   
